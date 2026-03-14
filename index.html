@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dental Clinic</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+<h2 class="logo">SmileCare</h2>
+
+<ul class="nav-links" id="navLinks">
+<li><a href="#home">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="menu" onclick="toggleMenu()">☰</div>
+</nav>
+</header>
+
+
+<section class="hero" id="home">
+<h1>Professional Dental Care</h1>
+<p>We provide the best dental treatment for a healthy smile.</p>
+<button onclick="scrollContact()">Book Appointment</button>
+</section>
+
+
+<section class="services" id="services">
+<h2>Our Services</h2>
+
+<div class="service-container">
+
+<div class="service-card">
+<h3>Teeth Cleaning</h3>
+<p>Professional cleaning for a healthy smile.</p>
+</div>
+
+<div class="service-card">
+<h3>Root Canal</h3>
+<p>Painless root canal treatment.</p>
+</div>
+
+<div class="service-card">
+<h3>Dental Implants</h3>
+<p>Advanced implant solutions.</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</section>
+
+
+<footer>
+<p>© 2026 SmileCare Dental Clinic</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
